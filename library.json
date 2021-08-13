@@ -1,0 +1,26 @@
+{
+  "name":"PN532_Desfire",
+  "version": "0.0.0",
+  "description":"Platformio library for Arduino Framework to communicate with PN532 RFID/NFC controller to handle Mifare Classsic and Desfire RFID cards with DES and AES encryption",
+  "keywords":"RFID, NFC, PN532, esp8266, esp32",
+  "authors": 
+  [
+    {
+      "name": "Pablo Clemente",
+      "maintainer": true,
+      "url":   "https://github.com/paclema"
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://gitlab.iotiq.de/AccessCtrl/pn532_desfire"
+  },
+  "frameworks": "arduino",
+  "platforms": [
+    "atmelavr",
+    "espressif8266",
+    "espressif32"
+    ],
+  "examples": "examples/*/*/*.ino"
+}
